@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
     <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/styleku.css">
 
 </head>
 
@@ -58,34 +59,29 @@
                         <nav class="main-nav d-none d-lg-flex">
                             <ul class="nav">
                                 <li>
-                                    <a href="about.html">
+                                    <a href="#home">
                                         <span class="menu-text">Home</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="about.html">
-                                        <span class="menu-text">About</span>
+                                    <a href="#keahlian">
+                                        <span class="menu-text">Keahlian</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="service.html">
-                                        <span class="menu-text"> Service</span>
+                                    <a href="#berkas">
+                                        <span class="menu-text">Berkas</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="portfolio.html">
-                                        <span class="menu-text"> Portfolio</span>
-                                        <i class="fa fa-angle-down"></i>
+                                    <a href="#projek">
+                                        <span class="menu-text">Projek</span>
                                     </a>
-                                    <ul class="dropdown-submenu dropdown-hover">
-                                        <li><a href="portfolio.html">Project</a></li>
-                                        <li><a href="portfolio-2.html">Sertivicate</a></li>
-                                    </ul>
                                 </li>
                              
                                 <li>
-                                    <a href="contact.html">
-                                        <span class="menu-text">Contact</span>
+                                    <a href="#kontak">
+                                        <span class="menu-text">Kontak</span>
                                     </a>
                                 </li>
                             </ul>
@@ -119,29 +115,32 @@
                             <!-- mobile menu navigation start -->
                             <nav>
                                 <ul class="mobile-menu">
-                                    <li class="menu-item-has-children"><a href="#">Home</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home One</a></li>
-                                            <li><a href="index-2.html">Home Two</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="#home">
+                                            <span class="menu-text">Home</span>
+                                        </a>
                                     </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="service.html">Service</a></li>
-                                    <li class="menu-item-has-children"><a href="#">Portfolio</a>
-                                        <ul class="dropdown">
-                                            <li><a href="portfolio.html">Portfolio One</a></li>
-                                            <li><a href="portfolio-2.html">Portfolio Two</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="#keahlian">
+                                            <span class="menu-text">Keahlian</span>
+                                        </a>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#">Blog</a>
-                                        <ul class="dropdown">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
+                                    <li>
+                                        <a href="#berkas">
+                                            <span class="menu-text">Berkas</span>
+                                        </a>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li>
+                                        <a href="#projek">
+                                            <span class="menu-text">Projek</span>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="#kontak">
+                                            <span class="menu-text">Kontak</span>
+                                        </a>
+                                    </li>
                                 </ul>
                             </nav>
                             <!-- mobile menu navigation end -->
@@ -166,18 +165,18 @@
     <!-- Header Area End Here -->
  
     <!-- About Section Start Here -->
-    <div class="about-section pt-90 pb-90 bg-dark ">
+    <div class="about-section pt-90 pb-90 bg-dark " id="home">
         <div class="container h-100">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-xl-7 order-1 m-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6 col-xl-5 order-1 m-auto" data-aos="fade-up" data-aos-delay="100">
                     <div class="restaurant-about-content section-title">
                         <h1 class="title mb-3 mt-5 text-white fw-bold">Web Developer</h1>
                         <h4 class="desc mb-2 text-light fw-bold">Nama Saya Saban Nurrahman</h4>
-                        <p class="desc-content text-muted mb-7">Seed money optimized for social sharing channelizing fords y</p>
-                        <a href="#" class="btn btn-light btn-hover-warning">Contact Me</a>
+                        <p class="desc-content text-muted mb-7">Saya Adalah Mahasiswa Lulusan Program Study Teknik Informatika Universitas Mataram Tahun 2022. Saya Memiliki Pengalaman Membuat Website dan Pernah Mengikuti Beberapa Pelatihan Yang Diadakan Oleh Kominfo.</p>
+                        <a href="#" class="btn btn-dark btn-hover-primary">Hubungi Saya</a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-5 order-0 order-lg-1" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-6 col-xl-7 order-0 order-lg-1" data-aos="fade-up" data-aos-delay="300">
                     <figure class="marketing-about-thumb mb-md-40 mb-sm-40">
                         <img class="fit-image" src="assets/images/about/1.jpg" alt="About">
                     </figure>
@@ -187,12 +186,12 @@
     </div>
     <!-- About Section End Here -->
     <!-- Service Section Start Here -->
-    <div class="service-section pt-90 pb-90">
+    <div class="service-section pt-90 pb-90" id="keahlian">
         <div class="container">
             <div class="row text-center mb-10">
                 <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="title">Our Services</h3>
-                    <h4 class="sub-title mb-0">The Ultimate Business Template</h4>
+                    <h3 class="title">Keahlian Saya</h3>
+                    <h4 class="sub-title mb-0">Keahlian Terbaik Yang Dimiliki Saat Ini!</h4>
                 </div>
             </div>
             <div class="row mb-n10">
@@ -229,39 +228,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-10">
-                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-icon">
-                            <i class="fa fa-codepen"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="title">IT Suport</h4>
-                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-10">
-                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-icon">
-                            <i class="fa fa-book"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="title">Article Writting</h4>
-                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-10">
-                    <div class="single-service-wrapper" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service-icon">
-                            <i class="fa fa-file-text-o"></i>
-                        </div>
-                        <div class="service-content">
-                            <h4 class="title">Content Management</h4>
-                            <p class="desc-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu ornare ante. Proin aliquam odio id lorem finibus, a ullamcorper arcu posuere.</p>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -301,26 +268,27 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
-                    <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="900">
+                    <div class="single-fun-fact-wrap" data-aos="fade-up" data-aos-delay="600">
                         <div class="counter-area">
-                            <strong class="counter">23,045</strong>
+                            <strong class="counter">98</strong><span class="text-white ml-2">%</span>
                         </div>
                         <div class="counter-content">
-                            <h3 class="title">Working Hours</h3>
+                            <h3 class="title">Happy Clients</h3>
                         </div>
                     </div>
                 </div>
+              
             </div>
         </div>
     </div>
     <!-- Funfact Section End Here -->
     <!-- Portfolio Section Start Here -->
-    <div class="portfolio-section pt-90">
+    <div class="portfolio-section pt-90" id="projek">
         <div class="container">
             <div class="row">
                 <div class="section-title text-center" data-aos="fade-up" data-aos-delay="100">
-                    <h4 class="title">Portfolio</h4>
-                    <h5 class="sub-title">Our Latest Work</h5>
+                    <h4 class="title">Projek Saya</h4>
+                    <h5 class="sub-title">Projek Terbaik Yang Pernah Saya Kerjakan</h5>
                 </div>
             </div>
             <div class="row">
@@ -364,66 +332,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 mt-30">
-                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="900">
-                        <figure class="portfolio-thumb hover-style position-relative m-0">
-                            <a href="portfolio-details.html">
-                                <img src="assets/images/portfolio/03.jpg" alt="Portfolio Image">
-                                <div class="overlay-1"></div>
-                            </a>
-                            <figcaption class="portfolio-details">
-                                <div class="port-info">
-                                    <h3 class="title"><a href="portfolio-details.html">Typography Design</a></h3>
-                                    <nav class="nav portfolio-cate">
-                                        <a href="portfolio-details.html">Design</a>
-                                        <span>&nbsp;/&nbsp;</span>
-                                        <a href="portfolio-details.html">Photography</a>
-                                    </nav>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-30">
-                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="300">
-                        <figure class="portfolio-thumb hover-style position-relative m-0">
-                            <a href="portfolio-details.html">
-                                <img src="assets/images/portfolio/04.jpg" alt="Portfolio Image">
-                                <div class="overlay-1"></div>
-                            </a>
-                            <figcaption class="portfolio-details">
-                                <div class="port-info">
-                                    <h3 class="title"><a href="portfolio-details.html">Deliver Result</a></h3>
-                                    <nav class="nav portfolio-cate">
-                                        <a href="portfolio-details.html">Design</a>
-                                        <span>&nbsp;/&nbsp;</span>
-                                        <a href="portfolio-details.html">Photography</a>
-                                    </nav>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-30">
-                    <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="600">
-                        <figure class="portfolio-thumb hover-style position-relative m-0">
-                            <a href="portfolio-details.html">
-                                <img src="assets/images/portfolio/05.jpg" alt="Portfolio Image">
-                                <div class="overlay-1"></div>
-                            </a>
-                            <figcaption class="portfolio-details">
-                                <div class="port-info">
-                                    <h3 class="title"><a href="portfolio-details.html">Truly Creative</a></h3>
-                                    <nav class="nav portfolio-cate">
-                                        <a href="portfolio-details.html">Design</a>
-                                        <span>&nbsp;/&nbsp;</span>
-                                        <a href="portfolio-details.html">Photography</a>
-                                    </nav>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
+               
                 <div class="col-lg-4 col-sm-6 mt-30">
                     <div class="single-portfolio-wrap" data-aos="fade-up" data-aos-delay="900">
                         <figure class="portfolio-thumb hover-style position-relative m-0">
@@ -451,17 +360,17 @@
  
   
     <!-- Support Section Start Here -->
-    <div class="support-area bg-light pt-90 pb-90 mt-90">
+    <div class="support-area bg-light pt-90 pb-90 mt-90" id="kontak">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="support-wrapper" data-aos="fade-up" data-aos-delay="300">
                         <div class="section-title text-center">
-                            <h1 class="title">Do you have any Projects ?</h1>
-                            <p class="mt-5 mb-5 pb-3">Whether you want to work with us or are interested in learning more about what we do, we’d love to hear from you.</p>
+                            <h1 class="title">Website Ini Di buat untuk memperkenalkan diri saya </h1>
+                            <p class="mt-5 mb-5 pb-3">Saya Harap Dengan Portfolio Yang Saya Tampilkan Memberikan Pesan Positif Terhadap Penilaian Diri Saya Kepada Client/Perusahan.</p>
                         </div>
                         <div class="support-button">
-                            <a class="btn btn-dark btn-hover-primary" href="contact.html">Contact now</a>
+                            <a class="btn btn-dark btn-hover-primary" href="contact.html">Hubungi Saya</a>
                         </div>
                     </div>
                 </div>
